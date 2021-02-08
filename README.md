@@ -50,4 +50,4 @@ resource "local_file" "AnsibleInventory" {
 ${host-name} ansible_host=${docker-ext-ip[index]}
 %{ endfor ~}
 ```
-3. Создаем директорию ansible и необходимые файлы ansible.cfg и playbook
+3. Создаем директорию ansible и необходимые файлы ansible.cfg и playbooks
